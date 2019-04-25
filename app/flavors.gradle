@@ -1,0 +1,15 @@
+android {
+    flavorDimensions "develop"
+    productFlavors {
+        develop {
+            dimension "develop"
+            resValue "string", "app_name", "timecard dev"
+            buildConfigField "String", "BASE_URL", "\"http://private-7d633a-timecard1.apiary-mock.com\""
+            applicationIdSuffix ".develop"
+        }
+        production {
+            resValue "string", "app_name", "timecard"
+            buildConfigField "String", "BASE_URL", "\"https://blend.school/api/\""
+        }
+    }
+}

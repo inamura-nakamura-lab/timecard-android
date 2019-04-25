@@ -1,6 +1,7 @@
 package com.github.inamura_nakamura_lab.timecard.di
 
 import com.facebook.stetho.okhttp3.StethoInterceptor
+import com.github.inamura_nakamura_lab.timecard.BuildConfig.BASE_URL
 import com.squareup.moshi.Moshi
 import okhttp3.OkHttpClient
 import org.koin.dsl.module
@@ -29,6 +30,7 @@ val apiModule = module {
                 .client(get())
                 .addConverterFactory(MoshiConverterFactory.create(get()))
                 .addCallAdapterFactory(RxJava2CallAdapterFactory.create())
+                .baseUrl(BASE_URL)
                 .build()
     }
 }
