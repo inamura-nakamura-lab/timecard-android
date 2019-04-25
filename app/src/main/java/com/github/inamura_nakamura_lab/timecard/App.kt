@@ -18,7 +18,7 @@ class App : Application() {
             // modules
             modules(appModule, apiModule)
         }
-        AndroidThreeTen.init(this);
+        AndroidThreeTen.init(this)
         if (BuildConfig.DEBUG) {
             Stetho.initializeWithDefaults(this)
             Timber.plant(Timber.DebugTree())
