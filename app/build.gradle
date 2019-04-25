@@ -41,4 +41,7 @@ dependencies {
     implementation Libs.retrofit
     implementation Libs.moshi
     implementation Libs.retrofitMoshiConverter
+    implementation Libs.koinAndroid
+    implementation Libs.koinAndroidxScope
+    implementation Libs.koinViewModel
 }
