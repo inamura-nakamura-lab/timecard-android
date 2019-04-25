@@ -18,7 +18,7 @@ object Libs {
     val rxAndroid = "io.reactivex.rxjava2:rxandroid:${Versions.rxAndroid}"
     val threeTenAbp = "com.jakewharton.threetenabp:threetenabp:${Versions.threeTenAbp}"
     val timber = "com.jakewharton.timber:timber:${Versions.timber}"
-    val stetho = "com.facebook.stetho:stetho:${Versions.stetho}"
+    val stetho = "com.facebook.stetho:stetho-okhttp3:${Versions.stetho}"
     val retrofit = "com.squareup.retrofit2:retrofit:${Versions.retrofit}"
     val moshi = "com.squareup.moshi:moshi-kotlin:${Versions.moshi}"
     val retrofitMoshiConverter = "com.squareup.retrofit2:converter-moshi:${Versions.retrofitMoshiConverter}"
