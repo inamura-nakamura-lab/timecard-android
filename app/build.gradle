@@ -60,4 +60,7 @@ dependencies {
     implementation Libs.koinAndroidxScope
     implementation Libs.koinViewModel
     implementation Libs.retrofitRxJavaAdapter
+    implementation Libs.groupie
+    implementation Libs.groupieKotlin
+    implementation Libs.groupieDatabinding
 }

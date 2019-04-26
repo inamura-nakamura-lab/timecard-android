@@ -9,6 +9,7 @@ object Libs {
         val retrofit = "2.5.0"
         val moshi = "1.8.0"
         val koin = "2.0.0-rc-2"
+        val groupie = "2.3.0"
     }
 
     val rxKotlin = "io.reactivex.rxjava2:rxkotlin:${Versions.rxKotlin}"
@@ -24,4 +25,7 @@ object Libs {
     val koinAndroid = "org.koin:koin-android:${Versions.koin}"
     val koinAndroidxScope = "org.koin:koin-androidx-scope:${Versions.koin}"
     val koinViewModel = "org.koin:koin-androidx-viewmodel:${Versions.koin}"
+    val groupie = "com.xwray:groupie:${Versions.groupie}"
+    val groupieKotlin = "com.xwray:groupie-kotlin-android-extensions:${Versions.groupie}"
+    val groupieDatabinding = "com.xwray:groupie-databinding:${Versions.groupie}"
 }
