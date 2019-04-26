@@ -16,9 +16,7 @@ class MainFragment : Fragment() {
 
     private val viewModel: MainViewModel by viewModel()
 
-    override
-
-    fun onCreateView(
+    override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
