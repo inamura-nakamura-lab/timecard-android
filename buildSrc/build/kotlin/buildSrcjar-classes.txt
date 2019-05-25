@@ -1,1 +1,0 @@
-/Users/keita/AndroidStudioProjects/timecard-android/buildSrc/build/classes/kotlin/main/Libs$Versions.class:/Users/keita/AndroidStudioProjects/timecard-android/buildSrc/build/classes/kotlin/main/Libs.class
