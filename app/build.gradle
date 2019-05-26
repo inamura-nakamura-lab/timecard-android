@@ -4,6 +4,8 @@ apply plugin: 'kotlin-android'
 
 apply plugin: 'kotlin-android-extensions'
 
+apply plugin: 'kotlin-kapt'
+
 android {
     compileSdkVersion 28
     defaultConfig {
@@ -63,4 +65,6 @@ dependencies {
     implementation Libs.groupie
     implementation Libs.groupieKotlin
     implementation Libs.groupieDatabinding
+    implementation Libs.lifecycle
+    kapt Libs.lifecycleCompiler
 }

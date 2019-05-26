@@ -10,6 +10,7 @@ object Libs {
         val moshi = "1.8.0"
         val koin = "2.0.0-rc-2"
         val groupie = "2.3.0"
+        val lifecycle = "2.0.0"
     }
 
     val rxKotlin = "io.reactivex.rxjava2:rxkotlin:${Versions.rxKotlin}"
@@ -28,4 +29,6 @@ object Libs {
     val groupie = "com.xwray:groupie:${Versions.groupie}"
     val groupieKotlin = "com.xwray:groupie-kotlin-android-extensions:${Versions.groupie}"
     val groupieDatabinding = "com.xwray:groupie-databinding:${Versions.groupie}"
+    val lifecycle = "androidx.lifecycle:lifecycle-extensions:${Versions.lifecycle}"
+    val lifecycleCompiler = "androidx.lifecycle:lifecycle-compiler:${Versions.lifecycle}"
 }
